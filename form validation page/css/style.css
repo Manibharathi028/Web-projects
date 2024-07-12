@@ -1,0 +1,54 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    
+}
+h2{
+    color: gray;
+
+}
+form{
+    max-width: 300px;
+    margin: o auto;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 475px;
+ 
+    box-shadow: 0 0 10px black;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+}
+input{
+    width: 100%;
+    padding:8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    display: block;
+}
+input[type="submit"]{
+    background-color: green;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: lightgreen;
+    
+}
